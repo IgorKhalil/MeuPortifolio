@@ -1,0 +1,9 @@
+.projects h1 {
+    font-size: 45px;
+    text-align: left;
+}
+.projects sectioncard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

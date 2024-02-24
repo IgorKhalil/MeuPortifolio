@@ -1,6 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Navbar from './Componentes/Sections/Navbar.jsx'
+import Presentation from "./Componentes/Sections/Presentation.jsx"
+import Projects from "./Componentes/Sections/Projects.jsx"
+import Tecnology from "./Componentes/Sections/Tecnology.jsx"
+import AboutMe from "./Componentes/Sections/AboutMe.jsx"
+import Footer from "./Componentes/Sections/Footer.jsx"
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -9,7 +15,17 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <Navbar/>
+        <Presentation/>
+        <Projects/>
+        <Tecnology/>
+        <AboutMe/>
+        <Footer/>
+      </div>
+    </>
+  )
+}
+/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
@@ -23,13 +39,6 @@ function App() {
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+        </p> */
 
 export default App
