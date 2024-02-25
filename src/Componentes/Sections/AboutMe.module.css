@@ -1,5 +1,11 @@
-
 .aboutMe h1{
     text-align: left;
     font-size: 45px;
+}
+.aboutMe section{
+    display: flex;
+    justify-content: center;
+}
+.aboutMe p{
+    margin-left: 30px;
 }

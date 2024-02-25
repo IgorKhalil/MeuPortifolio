@@ -4,10 +4,14 @@ import styles from "./Footer.module.css"
 function Footer(){
     return(
         <div className={styles.footer}>
-            <p>Meu Contato:</p>
-            <p>12 988888888</p>
-            <p>Email:</p>
-            <p>IgorFros@gmail.com</p>
+            <div>
+                <p>Meu Contato:</p>
+                <p>12 988888888</p>
+            </div>
+            <div>
+                <p>Email:</p>
+                <p>Igorfros@gmail.com</p>
+            </div>
             <ul>
                 <li> <a href='https://github.com/IgorKhalil'><FaGithub size={30} /> </a></li>
                 <li> <a href='https://www.linkedin.com/in/igor-silva-a97316279/'><FaLinkedin size={30} /> </a></li>
