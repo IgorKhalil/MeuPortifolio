@@ -6,7 +6,7 @@ import "../../App.css";
 function AboutMe(){
 
     return(
-        <div className={styles.aboutMe}>
+        <div id="AboutMe" className={styles.aboutMe}>
             <h1>Sobre mim</h1>
             <img src={Timeline}/>
             <section>
