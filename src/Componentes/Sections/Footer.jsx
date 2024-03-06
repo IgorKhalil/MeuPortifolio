@@ -4,10 +4,7 @@ import styles from "./Footer.module.css"
 function Footer(){
     return(
         <div className={styles.footer}>
-            <div>
-                <p>Meu Contato:</p>
-                <p>12 988888888</p>
-            </div>
+           
             <div>
                 <p>Email:</p>
                 <p>Igorfros@gmail.com</p>
